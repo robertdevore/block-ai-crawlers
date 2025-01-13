@@ -10,7 +10,7 @@
   * @wordpress-plugin
   *
   * Plugin Name: Block AI Crawlers
-  * Description: Adds an option to block AI crawlers via robots.txt
+  * Description: Adds an option to block known AI crawlers via the robots.txt file
   * Plugin URI:  https://github.com/robertdevore/block-ai-trackers/
   * Version:     1.0.0
   * Author:      Robert DeVore

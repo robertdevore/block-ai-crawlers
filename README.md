@@ -1,6 +1,8 @@
 # Block AI Crawlers
 
-Block AI Crawlers is a WordPress® plugin that allows you to block known AI crawlers from accessing your website. It integrates seamlessly with WordPress settings to provide a simple interface for managing crawler blocking via `robots.txt`.
+Block AI Crawlers is a free WordPress® plugin that allows you to block known AI crawlers from accessing your website. 
+
+It integrates seamlessly with WordPress settings to provide a simple interface for managing crawler blocking via `robots.txt`.
 
 ## Features
 

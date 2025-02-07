@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Block AI Crawlers\n"
-"POT-Creation-Date: 2025-01-13 12:40-0500\n"
-"PO-Revision-Date: 2025-01-13 12:39-0500\n"
+"POT-Creation-Date: 2025-02-07 13:59-0500\n"
+"PO-Revision-Date: 2025-02-07 13:59-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -22,20 +22,20 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 "X-Poedit-SearchPathExcluded-1: vendor\n"
 
-#: block-ai-trackers.php:163
+#: block-ai-trackers.php:189
 msgid "AI crawlers visibility"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-#: block-ai-trackers.php:181
+#: block-ai-trackers.php:207
 msgid "Block AI Crawlers"
 msgstr ""
 
-#: block-ai-trackers.php:182
+#: block-ai-trackers.php:208
 msgid "Block AI Crawlers from crawling your site"
 msgstr ""
 
-#: block-ai-trackers.php:183
+#: block-ai-trackers.php:209
 msgid "Prevent known AI crawlers from crawling your site."
 msgstr ""
 
@@ -44,7 +44,7 @@ msgid "https://github.com/robertdevore/block-ai-trackers/"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "Adds an option to block AI crawlers via robots.txt"
+msgid "Adds an option to block known AI crawlers via the robots.txt file"
 msgstr ""
 
 #. Author of the plugin/theme

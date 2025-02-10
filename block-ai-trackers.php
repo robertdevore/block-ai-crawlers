@@ -21,7 +21,7 @@
   * Domain Path: /languages
   * Update URI:  https://github.com/robertdevore/block-ai-trackers/
   */
- 
+
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
     die;

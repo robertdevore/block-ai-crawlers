@@ -202,11 +202,12 @@ class Block_Ai_Crawlers {
      */
     public function render_setting_field() {
         $value = get_option( $this->option_name, 0 );
-        echo '<fieldset>';
-        echo '<legend class="screen-reader-text"><span>' . esc_html__( 'Block AI Crawlers', 'block-ai-crawlers' ) . '</span></legend>';
-        echo '<label for="' . esc_attr( $this->option_name ) . '"><input name="' . esc_attr( $this->option_name ) . '" type="checkbox" id="' . esc_attr( $this->option_name ) . '" value="1" ' . checked( 1, $value, false ) . ' /> ' . esc_html__( 'Block AI Crawlers from crawling your site', 'block-ai-crawlers' ) . '</label>';
-        echo '<p class="description">' . esc_html__( 'Prevent known AI crawlers from crawling your site.', 'block-ai-crawlers' ) . '</p>';
-        echo '</fieldset>';
+        $html  = '<fieldset>';
+        $html .= '<legend class="screen-reader-text"><span>' . esc_html__( 'Block AI Crawlers', 'block-ai-crawlers' ) . '</span></legend>';
+        $html .= '<label for="' . esc_attr( $this->option_name ) . '"><input name="' . esc_attr( $this->option_name ) . '" type="checkbox" id="' . esc_attr( $this->option_name ) . '" value="1" ' . checked( 1, $value, false ) . ' /> ' . esc_html__( 'Block AI Crawlers from crawling your site', 'block-ai-crawlers' ) . '</label>';
+        $html .= '<p class="description">' . esc_html__( 'Prevent known AI crawlers from crawling your site.', 'block-ai-crawlers' ) . '</p>';
+        $html .= '</fieldset>';
+        echo $html;
     }
 
     /**

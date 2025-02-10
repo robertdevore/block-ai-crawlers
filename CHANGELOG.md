@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 1.1.1
+
+* [👌 IMPROVE: Updated crawler list to remove Google-Extended](https://github.com/robertdevore/block-ai-crawlers/commit/db37a750933aa9e2feef9a125003f4b6123856b8)
+* [👌 IMPROVE: Updated code to reduce echo's for the settings field](https://github.com/robertdevore/block-ai-crawlers/commit/1b8c793eaffd34fc522e3d55f0bcf9aeb7b6f510)
+* [👌 IMPROVE: Updated text strings for localization](https://github.com/robertdevore/block-ai-crawlers/commit/34a4b805da5180e307c8a3510de304c3a47bc966)
+
 ## 1.1.0
 
 * [📦 NEW: Added WPCom Check to restrict plugin usage on wordpress.com](https://github.com/robertdevore/block-ai-crawlers/commit/f494e21a2805977f8721f1908a50f1d53a669ac7)

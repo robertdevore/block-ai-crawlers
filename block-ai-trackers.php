@@ -95,7 +95,6 @@ class Block_Ai_Crawlers {
             'BingAI',
             'OpenAI',
             'AnthropicAI',
-            'Google-Extended',
             'JasperAI',
             'AI Content Detector',
             'AI SEO Crawler',

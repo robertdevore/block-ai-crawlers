@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.1.2
+
+* [🐛 BUG: Fixed 'trackers' usage with 'crawlers' which caused errors on upgrade](https://github.com/robertdevore/block-ai-crawlers/commit/520e956dc21d28dbebb6040e4a4594f2eca9e6a1)
+
 ## 1.1.1
 
 * [👌 IMPROVE: Updated crawler list to remove Google-Extended](https://github.com/robertdevore/block-ai-crawlers/commit/db37a750933aa9e2feef9a125003f4b6123856b8)

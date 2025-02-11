@@ -12,7 +12,7 @@
   * Plugin Name: Block AI Crawlers
   * Description: Adds an option to block known AI crawlers via the robots.txt file
   * Plugin URI:  https://github.com/robertdevore/block-ai-crawlers/
-  * Version:     1.1.1
+  * Version:     1.1.2
   * Author:      Robert DeVore
   * Author URI:  https://robertdevore.com/
   * License:     GPL-2.0+
@@ -29,7 +29,7 @@ if ( ! defined( 'WPINC' ) ) {
 
 // Define constants.
 define( 'BLOCK_AI_CRAWLERS_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
-define( 'BLOCK_AI_CRAWLERS_VERSION', '1.1.1' );
+define( 'BLOCK_AI_CRAWLERS_VERSION', '1.1.2' );
 
 // Add the Plugin Update Checker.
 require 'vendor/plugin-update-checker/plugin-update-checker.php';

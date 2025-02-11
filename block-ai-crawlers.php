@@ -11,15 +11,15 @@
   *
   * Plugin Name: Block AI Crawlers
   * Description: Adds an option to block known AI crawlers via the robots.txt file
-  * Plugin URI:  https://github.com/robertdevore/block-ai-trackers/
+  * Plugin URI:  https://github.com/robertdevore/block-ai-crawlers/
   * Version:     1.1.1
   * Author:      Robert DeVore
   * Author URI:  https://robertdevore.com/
   * License:     GPL-2.0+
   * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
-  * Text Domain: block-ai-trackers
+  * Text Domain: block-ai-crawlers
   * Domain Path: /languages
-  * Update URI:  https://github.com/robertdevore/block-ai-trackers/
+  * Update URI:  https://github.com/robertdevore/block-ai-crawlers/
   */
 
 // If this file is called directly, abort.
@@ -28,17 +28,17 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 // Define constants.
-define( 'BLOCK_AI_TRACKERS_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
-define( 'BLOCK_AI_TRACKERS_VERSION', '1.1.1' );
+define( 'BLOCK_AI_CRAWLERS_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
+define( 'BLOCK_AI_CRAWLERS_VERSION', '1.1.1' );
 
 // Add the Plugin Update Checker.
 require 'vendor/plugin-update-checker/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $myUpdateChecker = PucFactory::buildUpdateChecker(
-    'https://github.com/robertdevore/block-ai-trackers/',
+    'https://github.com/robertdevore/block-ai-crawlers/',
     __FILE__,
-    'block-ai-trackers'
+    'block-ai-crawlers'
 );
 
 // Set the branch that contains the stable release.
@@ -59,14 +59,14 @@ new WPComPluginHandler( plugin_basename( __FILE__ ), 'https://robertdevore.com/w
  * @since  1.1.0
  * @return void
  */
-function block_ai_trackers_load_textdomain() {
+function block_ai_crawlers_load_textdomain() {
     load_plugin_textdomain( 
-        'block-ai-trackers',
+        'block-ai-crawlers',
         false,
         dirname( plugin_basename( __FILE__ ) ) . '/languages/'
     );
 }
-add_action( 'plugins_loaded', 'block_ai_trackers_load_textdomain' );
+add_action( 'plugins_loaded', 'block_ai_crawlers_load_textdomain' );
 
 /**
  * Class Block_Ai_Crawlers

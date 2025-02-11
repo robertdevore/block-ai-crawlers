@@ -12,7 +12,7 @@ It integrates seamlessly with WordPress settings to provide a simple interface f
 
 ## Installation
 
-1. Download the plugin from the [GitHub repository](https://github.com/robertdevore/block-ai-trackers/).
+1. Download the plugin from the [GitHub repository](https://github.com/robertdevore/block-ai-crawlers/).
 2. Upload the plugin files to your `/wp-content/plugins/block-ai-crawlers` directory, or install the plugin through the WordPress® Plugins screen directly.
 3. Activate the plugin through the 'Plugins' screen in WordPress.
 4. Navigate to **Settings > Reading** to configure the plugin.
